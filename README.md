@@ -8,5 +8,6 @@ Day 3: Started working on the book Hands on Machine learning with Sci-kitlearn a
 
 Day 4: Continued working through the book, updated Chapter2.ipynb check insta and twitter @mbalfakeih to see what I learnt
 
-
 Day 5: Continued working through the book, updated Chapter2.ipynb check insta and twitter @mbalfakeih to see what I learnt
+
+Day 6: Continued working through the book, updated Chapter2.ipynb check insta and twitter @mbalfakeih to see what I learnt
