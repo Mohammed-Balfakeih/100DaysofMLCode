@@ -13,3 +13,5 @@ Day 5: Continued working through the book, updated Chapter2.ipynb check insta an
 Day 6: Continued working through the book, updated Chapter2.ipynb check insta and twitter @mbalfakeih to see what I learnt
 
 Day 7: Continued working through the book, updated Chapter2.ipynb check insta and twitter @mbalfakeih to see what I learnt
+
+Day 8: Finished Chapter 2 and most of it's excersises, going to move on to a new project
