@@ -15,3 +15,5 @@ Day 6: Continued working through the book, updated Chapter2.ipynb check insta an
 Day 7: Continued working through the book, updated Chapter2.ipynb check insta and twitter @mbalfakeih to see what I learnt
 
 Day 8: Finished Chapter 2 and most of it's excersises, going to move on to a new project
+
+Day 9-13: Forgot to update github during this time, predicted avocado prices, moved on to chapter 3, check social media for more info
