@@ -19,3 +19,5 @@ Day 8: Finished Chapter 2 and most of it's excersises, going to move on to a new
 Day 9-13: Forgot to update github during this time, predicted avocado prices, moved on to chapter 3, check social media for more info
 
 Day 13 and 14: Went through some linear algebra on the notebook for the textbook. Read about Gradient Descent and the Normal Equation
+
+Day 15 - 21: Check Social for what I learnt @mbalfakeih
