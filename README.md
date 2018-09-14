@@ -20,4 +20,4 @@ Day 9-13: Forgot to update github during this time, predicted avocado prices, mo
 
 Day 13 and 14: Went through some linear algebra on the notebook for the textbook. Read about Gradient Descent and the Normal Equation
 
-Day 15 - 21: Check Social for what I learnt @mbalfakeih
+Day 15 - 100: Check Social for what I learnt @mbalfakeih
