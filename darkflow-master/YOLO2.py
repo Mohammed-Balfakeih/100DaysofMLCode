@@ -5,16 +5,17 @@ import time
 
 option = {
     'model': 'cfg/yolo.cfg',
-    'load': 'bin/yolov2-tiny.weights',
-    'threshold': 0.15,
+    'load': 'bin/yolov2.weights',
+    'threshold': 0.2,
 }
 
 tfnet = TFNet(option)
 
-capture = cv2.VideoCapture('yolo.mov')
+capture = cv2.VideoCapture(0) #Live video
 colors = [tuple(255 * np.random.rand(3)) for i in range(5)]
-
-while(capture.isOpened()):
+capture.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)
+capture.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
+while True:
 
     stime = time.time()
     ret, frame = capture.read()
@@ -26,13 +27,14 @@ while(capture.isOpened()):
             br = (result['bottomright']['x'],
             result['bottomright']['y'])
             label = result['label']
-            frame = cv2.rectangle(frame, tl, br, color, 7)
-            frame = cv2.putText(frame,label, tl, cv2.FONT_HERSHEY_COMPLEX, 1, (0,0,0), 2)
+            confidence = result['confidence']
+            text = '{}: {:.0f}%'.format(label, confidence * 100)
+            frame = cv2.rectangle(frame, tl, br, color, 5)
+            frame = cv2.putText(frame, label, tl, cv2.FONT_HERSHEY_COMPLEX, 1, (0,0,0), 2)
         cv2.imshow('frame', frame)
         print('FPS {:.1f}'.format(1/ (time.time() - stime)))
-        if cv2.waitKey(1) & 0xFF == ord('q'):
+    if cv2.waitKey(1) & 0xFF == ord('q'):
             break
-    else:
-        capture.release()
-        cv2.destroyAllWindows()
-        break
+    
+capture.release()
+cv2.destroyAllWindows()
