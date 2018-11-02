@@ -1,0 +1,22 @@
+<annotation>
+  <folder>images</folder>
+  <filename>000345.png</filename>
+  <segmented/>
+  <size>
+    <width>284</width>
+    <height>177</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>thumbs_up</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>103</xmin>
+      <ymin>43</ymin>
+      <xmax>157</xmax>
+      <ymax>124</ymax>
+    </bndbox>
+  </object>
+</annotation>
